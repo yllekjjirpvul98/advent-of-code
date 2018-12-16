@@ -10,7 +10,7 @@ import java.util.HashMap;
 
 public class partOne {
 	public static void main(String[] args) throws IOException {
-		InputStream inputStream = new FileInputStream("../advent_of_code/src/dayTwo/input.txt");
+	    InputStream inputStream = new FileInputStream("../advent_of_code/src/dayTwo/input.txt");
 	    InputStreamReader reader = new InputStreamReader(inputStream, StandardCharsets.UTF_8);
 	    BufferedReader in = new BufferedReader(reader);
 	    int numOfTwo = 0;
